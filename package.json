@@ -1,0 +1,72 @@
+{
+  "name": "extension-leaderboard",
+  "displayName": "Extension Leaderboard",
+  "description": "Data insight for popular extensions, history of download count and extension leaderboard",
+  "version": "0.0.1",
+  "publisher": "formulahendry",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "leaderboard",
+    "data",
+    "download-count",
+    "insight",
+    "history"
+  ],
+  "bugs": {
+    "url": "https://github.com/formulahendry/vscode-extension-leaderboard/issues",
+    "email": "formulahendry@gmail.com"
+  },
+  "homepage": "https://github.com/formulahendry/vscode-extension-leaderboard/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/formulahendry/vscode-extension-leaderboard.git"
+  },
+  "activationEvents": [
+    "onCommand:extension-leaderboard.showExtensionLeaderboard"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension-leaderboard.showExtensionLeaderboard",
+        "title": "Show Extension Leaderboard"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension-leaderboard.showExtensionLeaderboard",
+        "key": "ctrl+alt+l"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Extension Leaderboard configuration",
+      "properties": {
+        "extension-leaderboard.enableAppInsights": {
+          "type": "boolean",
+          "default": true,
+          "description": "Whether to enable AppInsights to track anonymous telemetry data."
+        }
+      }
+    }
+  },
+  
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.5",
+    "vscode": "^0.11.0"
+  },
+  "dependencies": {
+    "applicationinsights": "^0.17.0"
+  }
+}
