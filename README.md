@@ -4,7 +4,7 @@ Data insight for popular extensions, history of download count and extension lea
 
 ## Usage
 
-To show use shortcut `Ctrl+Alt+L`, or press `F1` and then select/type `Show Extension Leaderboard`
+To show extension leaderboard, use shortcut `Ctrl+Alt+L`, or press `F1` and then select/type `Show Extension Leaderboard`
 
 ## Features
 
