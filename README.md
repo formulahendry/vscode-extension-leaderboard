@@ -1,6 +1,6 @@
 # Extension Leaderboard
 
-Data insight for popular extensions, history of download count and extension leaderboard
+Data insight for popular extensions, history of download count, extension leaderboardI, and integrated VS Code Marketplace
 
 ## Usage
 
@@ -10,15 +10,19 @@ To show extension leaderboard, use shortcut `Ctrl+Alt+L`, or press `F1` and then
 
 * Popular extension list
 
-  ![extension](images/extension.png)
+![extension](images/extension.png)
 
 * History of download count
 
-  ![history](images/history.png)
+![history](images/history.png)
 
 * Extension leaderboard
 
-  ![leaderboard](images/leaderboard.png)
+![leaderboard](images/leaderboard.png)
+
+* Integrated VS Code Marketplace
+
+![marketplace](images/marketplace.png)
 
 ## Telemetry data
 By default, anonymous telemetry data collection is turned on to understand user behavior to improve this extension. To disable it, update the settings.json as below:

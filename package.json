@@ -1,8 +1,8 @@
 {
   "name": "extension-leaderboard",
   "displayName": "Extension Leaderboard",
-  "description": "Data insight for popular extensions, history of download count and extension leaderboard",
-  "version": "0.0.1",
+  "description": "Data insight for popular extensions, history of download count, extension leaderboard, and integrated VS Code Marketplace",
+  "version": "0.0.2",
   "publisher": "formulahendry",
   "icon": "images/logo.png",
   "engines": {
